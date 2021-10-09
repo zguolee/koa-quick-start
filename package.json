@@ -1,0 +1,35 @@
+{
+  "name": "koa-quickstart",
+  "version": "1.0.0",
+  "description": "Hands-on tutorial for Koa 2",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch src -e ts,tsx --exec ts-node src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "@koa/router": "^10.1.1",
+    "argon2": "^0.28.2",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.3",
+    "koa-bodyparser": "^4.3.0",
+    "koa-jwt": "^4.0.3"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^8.5.5",
+    "@types/koa": "^2.13.4",
+    "@types/koa-bodyparser": "^4.3.3",
+    "@types/koa__cors": "^3.0.3",
+    "@types/koa__router": "^8.0.8",
+    "@types/node": "^16.10.3",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.13",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^10.2.1",
+    "typeorm": "^0.2.38",
+    "typescript": "^4.4.3"
+  }
+}
